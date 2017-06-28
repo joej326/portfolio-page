@@ -1,0 +1,18 @@
+.footer-main{
+  background: #1b97a8;
+  border-top: 4px solid black;
+}
+.footer-main h3 {
+    color: white;
+    padding: 1vw 0vw 0vw 0vw;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+.social-media-logos-footer{
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #454545;
+}
