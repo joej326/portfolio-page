@@ -22,8 +22,32 @@
 }
 .social-media-logos li{
   margin: 0px 10px 0px 10px;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #454545;
+}
+.social-media-logos li a{
+  color: white;
+}
+.social-media-logos li a:hover{
+  color: #0c7565;
+}
 
+.back-to-top{
+  background: #1c6477;
+  /*border: 0.1vw solid white;*/
+  z-index: 10;
+  position: fixed;
+  padding: 0vw 1vw 0vw 1vw;
+  top: -5vw;
+  right: -0.5vw;
+  border-radius: 1vw;
+}
+.back-to-top:hover{
+  background: #16a6bf;
+  color: #155574;
+
+}
+.back-to-top h2{
+  color: white;
 }

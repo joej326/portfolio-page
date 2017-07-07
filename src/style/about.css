@@ -1,0 +1,29 @@
+.about-main-div{
+  text-align: left;
+  background: #E1DFE0;
+}
+
+.my-pic{
+  width: 40vw;
+  position: relative;
+  right: 10vw;
+}
+.my-pic-and-paragraph{
+  display: flex;
+  align-items: center;
+}
+.about-paragraph{
+  margin: 0vw 7vw 0vw 0vw;
+
+}
+.about-paragraph h2{
+  text-decoration: underline;
+  font-size: 2vw;
+}
+.about-paragraph p{
+  font-size: 1.5vw;
+  line-height: 2.3vw;
+}
+.about-paragraph span{
+  font-weight: bolder;
+}

@@ -1,9 +1,11 @@
 .footer-main{
   background: #1b97a8;
   border-top: 4px solid black;
+  padding-top: 4vw;
 }
 .footer-main h3 {
     color: white;
+    font-size: 2vw;
     padding: 1vw 0vw 0vw 0vw;
     text-decoration: underline;
     margin-top: 0px;
@@ -13,6 +15,34 @@
   display: flex;
   justify-content: center;
   font-size: 3vw;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #454545;
+}
+.social-media-logos-footer li a{
+  color: white;
+}
+.social-media-logos-footer li a:hover{
+  color: #177e72;
+}
+.email-field{
+  margin: 0vw 36vw 0vw 36vw;
+}
+.email-field p{
+  text-align: left;
+}
+.message{
+
+}
+.contact-field{
+  padding: 4vw 0vw 0vw 0vw;
+}
+.contact-field p{
+  font-size: 1.5vw;
+  color: white;
+}
+
+.contact-field p:nth-child(3){
+  background: #147961;
+  padding: 0.5vw 0vw 0.5vw 0vw;
+  margin-bottom: 0px;
+  font-size: 1vw;
+  margin-top: 3vw;
 }

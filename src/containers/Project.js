@@ -10,13 +10,17 @@ export default class Project extends Component{
   }
 
   render(){
+    console.log(this.props.thumbnail);
     return (
-      <div className='project-main-div'>
+      <div className='hover project-main-div'>
+        <a target='_blank' href={this.props.link}>
         <img className='project'
-             src="http://www.hardwickagriculture.org/blog/wp-content/uploads/placeholder.jpg"
+             src={this.props.thumbnail}
              alt="placeholder"
         />
-        <h3>Project Title</h3>
+
+        <h3>{this.props.title}</h3>
+        </a>
       </div>
     )
   }
